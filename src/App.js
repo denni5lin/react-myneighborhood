@@ -33,6 +33,7 @@ class App extends Component {
       this.setState({
         venues: Object.assign(this.state.venues, newVenue)
       });
+      // console.log(newVenue);
     });
   };
 

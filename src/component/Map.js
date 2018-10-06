@@ -32,7 +32,8 @@ const MyMapComponent = withScriptjs(
                       <img
                         src={`${venueInfo.bestPhoto.prefix}200x200${
                           venueInfo.bestPhoto.suffix
-                        } alt={}`}
+                        }`}
+                        alt={"Venue Image"}
                       />
                       <p>{venueInfo.name}</p>
                     </React.Fragment>
