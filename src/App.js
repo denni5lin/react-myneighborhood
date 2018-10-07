@@ -11,7 +11,7 @@ class App extends Component {
       venues: [],
       markers: [],
       center: [],
-      zoom: 12
+      zoom: 13
     };
   }
 
@@ -34,14 +34,13 @@ class App extends Component {
       this.setState({
         venues: Object.assign(this.state.venues, newVenue)
       });
-      // console.log(newVenue);
     });
   };
 
   componentDidMount() {
     SquareAPI.search({
       near: "Chicago, IL",
-      query: "tacos",
+      query: "museum",
       limit: 10
     }).then(results => {
       const { venues } = results.response;
