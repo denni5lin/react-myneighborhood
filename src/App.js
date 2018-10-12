@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import Header from "./component/Header";
 import Map from "./component/Map";
 import SideBar from "./component/SideBar";
 
@@ -70,9 +71,7 @@ class App extends Component {
   render() {
     return (
       <main>
-        <header id="title">
-          <h1>Neighborhood Map</h1>
-        </header>
+        <Header />
         <div className="App">
           <SideBar
             {...this.state}
