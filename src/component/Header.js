@@ -4,7 +4,7 @@ class Header extends Component {
   render() {
     return (
       <nav id="navbar">
-        <h3 id="head-text">Neighborhood Map</h3>
+        <h1 id="head-text">Neighborhood Map</h1>
       </nav>
     );
   }

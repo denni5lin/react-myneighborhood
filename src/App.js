@@ -13,7 +13,7 @@ class App extends Component {
       venues: [],
       markers: [],
       center: [],
-      zoom: 13,
+      zoom: 12,
       updateSuperState: obj => {
         this.setState(obj);
       }
