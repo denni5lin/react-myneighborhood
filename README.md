@@ -8,6 +8,8 @@ This is a single-page application using React featuring a map of my favorite cit
 - Install all project dependencies with `npm install`
 - Start the development server with `npm start` (this will automatically launch your default browser and open application)
 
+Here is the live version of my **[neighborhood map](https://denni5lin.github.io/react-myneighborhood/)**
+
 \*\* NOTE: due to limits with the API calls, the infoboxes may not show when map markers are clicked
 
 ## Dependencies
