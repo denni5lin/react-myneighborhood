@@ -1,6 +1,6 @@
 # Neighborhood Map (React)
 
-This is a single-page application using React featuring a map of my favorite city/neighborhood. My neighborhood map was created usnig [Google Map API](https://developers.google.com/maps/documentation/) and I also used [FourSquare](https://developer.foursquare.com/) API to generate venues and show additional information for each venue.
+This is a single-page application using React featuring a map of my favorite city/neighborhood. My neighborhood map was created using [Google Map API](https://developers.google.com/maps/documentation/) and I also used [FourSquare](https://developer.foursquare.com/) API to generate venues and show additional information for each venue.
 
 ## Launch the project
 
